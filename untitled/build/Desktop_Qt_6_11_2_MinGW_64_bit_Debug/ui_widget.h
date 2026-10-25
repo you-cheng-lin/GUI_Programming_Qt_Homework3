@@ -34,6 +34,7 @@ public:
     QPushButton *pushButton_2;
     QLineEdit *lineEdit_4;
     QLabel *label_4;
+    QPushButton *pushButton_3;
 
     void setupUi(QWidget *Widget)
     {
@@ -63,16 +64,19 @@ public:
         label_3->setGeometry(QRect(30, 480, 53, 15));
         pushButton = new QPushButton(Widget);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(100, 560, 241, 23));
+        pushButton->setGeometry(QRect(290, 560, 221, 23));
         pushButton_2 = new QPushButton(Widget);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(520, 560, 241, 23));
+        pushButton_2->setGeometry(QRect(540, 560, 221, 23));
         lineEdit_4 = new QLineEdit(Widget);
         lineEdit_4->setObjectName("lineEdit_4");
         lineEdit_4->setGeometry(QRect(70, 520, 691, 21));
         label_4 = new QLabel(Widget);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(30, 520, 53, 15));
+        pushButton_3 = new QPushButton(Widget);
+        pushButton_3->setObjectName("pushButton_3");
+        pushButton_3->setGeometry(QRect(74, 560, 191, 23));
 
         retranslateUi(Widget);
 
@@ -88,6 +92,7 @@ public:
         pushButton->setText(QCoreApplication::translate("Widget", "\346\226\260\345\242\236", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Widget", "\345\214\257\345\207\272", nullptr));
         label_4->setText(QCoreApplication::translate("Widget", "\351\233\273\350\251\261 :", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("Widget", "\345\214\257\345\205\245", nullptr));
     } // retranslateUi
 
 };
